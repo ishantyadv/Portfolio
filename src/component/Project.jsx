@@ -1,7 +1,7 @@
 import React from "react";
 import blogimage from '../assets/image/logo_blog.jpg';
 import zomatocloneimage from '../assets/image/zomato-logo.jpg';
-import emsimage from '../assets/image/images.jpeg';
+
 import calImage from '../assets/image/calculator.webp';
 
 export default function Project() {
@@ -16,14 +16,6 @@ export default function Project() {
     },
     {
       id: 2,
-      src: emsimage,
-      title: "Employee Management System",
-      description: "A React-based system designed for efficient employee data management and tracking.",
-      href: "https://shiny-1.netlify.app/",
-      style: "shadow-green-500",
-    },
-    {
-      id: 3,
       src: zomatocloneimage,
       title: "Zomato Clone",
       description: "This project highlights my front-end design skills and ability to create visually appealing, responsive web pages without using JavaScript or backend technologies.",
@@ -31,11 +23,11 @@ export default function Project() {
       style: "shadow-gray-400",
     },
     {
-      id: 4,
+      id: 3,
       src: calImage,
       title: "Calculator",
       description: "A simple and responsive calculator built with React.js. It performs basic arithmetic operations.",
-      href: "https://01-calculatorr.netlify.app/",
+      href: "https://calculatorr-00.netlify.app/",
       style: "shadow-red-400",
     },
   ];
